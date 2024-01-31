@@ -142,7 +142,7 @@ img {
 
     [class^="col"] {
         min-width: 100%;
-        padding: 2rem 0;
+        padding: 2rem 1rem;
     }
 
     .why-us {
@@ -152,3 +152,12 @@ img {
     }
 
  }
+
+            /* Bonus */
+    
+    @media screen and (max-width: 1160px) {
+        .container {
+            width: 100%;
+        }
+
+    }
