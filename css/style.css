@@ -134,3 +134,21 @@ img {
     }
     
  }
+
+ @media screen and (max-width: 480px) {
+    .row {
+        display: block;
+    }
+
+    [class^="col"] {
+        min-width: 100%;
+        padding: 2rem 0;
+    }
+
+    .why-us {
+        background-color: #222222FF;
+        margin: -3rem 0;
+        padding: 3rem 0;
+    }
+
+ }
